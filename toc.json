@@ -1,34 +1,52 @@
 {
   "items": [
-    { "type": "item", "title": "Document 1", "uri": "docs/doc-1.md" },
-    { "type": "item", "title": "Document 2", "uri": "docs/doc-2.md" },
-    { "type": "item", "title": "Document 3", "uri": "docs/doc-3.md" },
-    { "type": "item", "title": "Document 4", "uri": "docs/doc-4.md" },
-    { "type": "item", "title": "Document 5", "uri": "docs/doc-5.md" },
-    { "type": "item", "title": "Document 6", "uri": "docs/doc-6.md" },
-    { "type": "item", "title": "Document 7", "uri": "docs/doc-7.md" },
-    { "type": "item", "title": "Document 8", "uri": "docs/doc-8.md" },
-    { "type": "item", "title": "Document 9", "uri": "docs/doc-9.md" },
-    { "type": "item", "title": "Document 10", "uri": "docs/doc-10.md" },
-    { "type": "item", "title": "Document 11", "uri": "docs/doc-11.md" },
-    { "type": "item", "title": "Document 12", "uri": "docs/doc-12.md" },
-    { "type": "item", "title": "Document 13", "uri": "docs/doc-13.md" },
-    { "type": "item", "title": "Document 14", "uri": "docs/doc-14.md" },
-    { "type": "item", "title": "Document 15", "uri": "docs/doc-15.md" },
-    { "type": "item", "title": "Document 16", "uri": "docs/doc-16.md" },
-    { "type": "item", "title": "Document 17", "uri": "docs/doc-17.md" },
-    { "type": "item", "title": "Document 18", "uri": "docs/doc-18.md" },
-    { "type": "item", "title": "Document 19", "uri": "docs/doc-19.md" },
-    { "type": "item", "title": "Document 20", "uri": "docs/doc-20.md" },
-    { "type": "item", "title": "Document 21", "uri": "docs/doc-21.md" },
-    { "type": "item", "title": "Document 22", "uri": "docs/doc-22.md" },
-    { "type": "item", "title": "Document 23", "uri": "docs/doc-23.md" },
-    { "type": "item", "title": "Document 24", "uri": "docs/doc-24.md" },
-    { "type": "item", "title": "Document 25", "uri": "docs/doc-25.md" },
-    { "type": "item", "title": "Document 26", "uri": "docs/doc-26.md" },
-    { "type": "item", "title": "Document 27", "uri": "docs/doc-27.md" },
-    { "type": "item", "title": "Document 28", "uri": "docs/doc-28.md" },
-    { "type": "item", "title": "Document 29", "uri": "docs/doc-29.md" },
-    { "type": "item", "title": "Document 30", "uri": "docs/doc-30.md" }
+    {
+      "type": "group",
+      "title": "Group A",
+      "items": [
+        { "type": "item", "title": "Document 1", "uri": "docs/doc-1.md" },
+        { "type": "item", "title": "Document 2", "uri": "docs/doc-2.md" },
+        { "type": "item", "title": "Document 3", "uri": "docs/doc-3.md" },
+        { "type": "item", "title": "Document 4", "uri": "docs/doc-4.md" },
+        { "type": "item", "title": "Document 5", "uri": "docs/doc-5.md" },
+        { "type": "item", "title": "Document 6", "uri": "docs/doc-6.md" },
+        { "type": "item", "title": "Document 7", "uri": "docs/doc-7.md" },
+        { "type": "item", "title": "Document 8", "uri": "docs/doc-8.md" },
+        { "type": "item", "title": "Document 9", "uri": "docs/doc-9.md" },
+        { "type": "item", "title": "Document 10", "uri": "docs/doc-10.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Group B",
+      "items": [
+        { "type": "item", "title": "Document 11", "uri": "docs/doc-11.md" },
+        { "type": "item", "title": "Document 12", "uri": "docs/doc-12.md" },
+        { "type": "item", "title": "Document 13", "uri": "docs/doc-13.md" },
+        { "type": "item", "title": "Document 14", "uri": "docs/doc-14.md" },
+        { "type": "item", "title": "Document 15", "uri": "docs/doc-15.md" },
+        { "type": "item", "title": "Document 16", "uri": "docs/doc-16.md" },
+        { "type": "item", "title": "Document 17", "uri": "docs/doc-17.md" },
+        { "type": "item", "title": "Document 18", "uri": "docs/doc-18.md" },
+        { "type": "item", "title": "Document 19", "uri": "docs/doc-19.md" },
+        { "type": "item", "title": "Document 20", "uri": "docs/doc-20.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Group C",
+      "items": [
+        { "type": "item", "title": "Document 21", "uri": "docs/doc-21.md" },
+        { "type": "item", "title": "Document 22", "uri": "docs/doc-22.md" },
+        { "type": "item", "title": "Document 23", "uri": "docs/doc-23.md" },
+        { "type": "item", "title": "Document 24", "uri": "docs/doc-24.md" },
+        { "type": "item", "title": "Document 25", "uri": "docs/doc-25.md" },
+        { "type": "item", "title": "Document 26", "uri": "docs/doc-26.md" },
+        { "type": "item", "title": "Document 27", "uri": "docs/doc-27.md" },
+        { "type": "item", "title": "Document 28", "uri": "docs/doc-28.md" },
+        { "type": "item", "title": "Document 29", "uri": "docs/doc-29.md" },
+        { "type": "item", "title": "Document 30", "uri": "docs/doc-30.md" }
+      ]
+    }
   ]
 }
