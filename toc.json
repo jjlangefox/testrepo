@@ -233,6 +233,259 @@
           ]
         }
       ]
+    },
+    {
+      "type": "group",
+      "title": "Developer Experience",
+      "items": [
+        {
+          "type": "group",
+          "title": "CLI Tools",
+          "items": [
+            { "type": "item", "title": "Setup", "uri": "docs/developer-experience/cli/setup.md" },
+            { "type": "item", "title": "Usage", "uri": "docs/developer-experience/cli/usage.md" },
+            { "type": "item", "title": "Advanced", "uri": "docs/developer-experience/cli/advanced.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "IDE Plugins",
+          "items": [
+            { "type": "item", "title": "VS Code", "uri": "docs/developer-experience/ide-plugins/vscode.md" },
+            { "type": "item", "title": "JetBrains", "uri": "docs/developer-experience/ide-plugins/jetbrains.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Code Generation",
+          "items": [
+            { "type": "item", "title": "Templates", "uri": "docs/developer-experience/code-generation/templates.md" },
+            { "type": "item", "title": "OpenAPI", "uri": "docs/developer-experience/code-generation/openapi.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Platform",
+      "items": [
+        {
+          "type": "group",
+          "title": "Infrastructure",
+          "items": [
+            { "type": "item", "title": "Setup", "uri": "docs/platform/infrastructure/setup.md" },
+            { "type": "item", "title": "Scaling", "uri": "docs/platform/infrastructure/scaling.md" },
+            { "type": "item", "title": "High Availability", "uri": "docs/platform/infrastructure/ha.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Multi-Tenancy",
+          "items": [
+            { "type": "item", "title": "Tenants", "uri": "docs/platform/multi-tenancy/tenants.md" },
+            { "type": "item", "title": "Isolation", "uri": "docs/platform/multi-tenancy/isolation.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Regions",
+          "items": [
+            { "type": "item", "title": "US East", "uri": "docs/platform/regions/us-east.md" },
+            { "type": "item", "title": "EU West", "uri": "docs/platform/regions/eu-west.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Enterprise",
+      "items": [
+        {
+          "type": "group",
+          "title": "SSO & SAML",
+          "items": [
+            { "type": "item", "title": "Setup", "uri": "docs/enterprise/sso/setup.md" },
+            { "type": "item", "title": "SAML", "uri": "docs/enterprise/sso/saml.md" },
+            { "type": "item", "title": "SCIM", "uri": "docs/enterprise/sso/scim.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Audit Logs",
+          "items": [
+            { "type": "item", "title": "Events", "uri": "docs/enterprise/audit-logs/events.md" },
+            { "type": "item", "title": "Retention", "uri": "docs/enterprise/audit-logs/retention.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "RBAC",
+          "items": [
+            { "type": "item", "title": "Roles", "uri": "docs/enterprise/rbac/roles.md" },
+            { "type": "item", "title": "Permissions", "uri": "docs/enterprise/rbac/permissions.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "API Versions",
+      "items": [
+        {
+          "type": "group",
+          "title": "v1",
+          "items": [
+            {
+              "type": "group",
+              "title": "REST",
+              "items": [
+                { "type": "item", "title": "Endpoints", "uri": "docs/api-versions/v1/rest/endpoints.md" },
+                { "type": "item", "title": "Errors", "uri": "docs/api-versions/v1/rest/errors.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "GraphQL",
+              "items": [
+                { "type": "item", "title": "Queries", "uri": "docs/api-versions/v1/graphql/queries.md" },
+                { "type": "item", "title": "Mutations", "uri": "docs/api-versions/v1/graphql/mutations.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v2",
+          "items": [
+            {
+              "type": "group",
+              "title": "REST",
+              "items": [
+                { "type": "item", "title": "Endpoints", "uri": "docs/api-versions/v2/rest/endpoints.md" },
+                { "type": "item", "title": "Errors", "uri": "docs/api-versions/v2/rest/errors.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "GraphQL",
+              "items": [
+                { "type": "item", "title": "Queries", "uri": "docs/api-versions/v2/graphql/queries.md" },
+                { "type": "item", "title": "Mutations", "uri": "docs/api-versions/v2/graphql/mutations.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v3",
+          "items": [
+            {
+              "type": "group",
+              "title": "REST",
+              "items": [
+                { "type": "item", "title": "Endpoints", "uri": "docs/api-versions/v3/rest/endpoints.md" },
+                { "type": "item", "title": "Errors", "uri": "docs/api-versions/v3/rest/errors.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "GraphQL",
+              "items": [
+                { "type": "item", "title": "Queries", "uri": "docs/api-versions/v3/graphql/queries.md" },
+                { "type": "item", "title": "Mutations", "uri": "docs/api-versions/v3/graphql/mutations.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v4",
+          "items": [
+            {
+              "type": "group",
+              "title": "REST",
+              "items": [
+                { "type": "item", "title": "Endpoints", "uri": "docs/api-versions/v4/rest/endpoints.md" },
+                { "type": "item", "title": "Errors", "uri": "docs/api-versions/v4/rest/errors.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "GraphQL",
+              "items": [
+                { "type": "item", "title": "Queries", "uri": "docs/api-versions/v4/graphql/queries.md" },
+                { "type": "item", "title": "Mutations", "uri": "docs/api-versions/v4/graphql/mutations.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v5",
+          "items": [
+            {
+              "type": "group",
+              "title": "REST",
+              "items": [
+                { "type": "item", "title": "Endpoints", "uri": "docs/api-versions/v5/rest/endpoints.md" },
+                { "type": "item", "title": "Errors", "uri": "docs/api-versions/v5/rest/errors.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "GraphQL",
+              "items": [
+                { "type": "item", "title": "Queries", "uri": "docs/api-versions/v5/graphql/queries.md" },
+                { "type": "item", "title": "Mutations", "uri": "docs/api-versions/v5/graphql/mutations.md" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Community",
+      "items": [
+        {
+          "type": "group",
+          "title": "Contributing",
+          "items": [
+            { "type": "item", "title": "Guide", "uri": "docs/community/contributing/guide.md" },
+            { "type": "item", "title": "Standards", "uri": "docs/community/contributing/standards.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Forums",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/community/forums/overview.md" },
+            { "type": "item", "title": "FAQ", "uri": "docs/community/forums/faq.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Support",
+      "items": [
+        {
+          "type": "group",
+          "title": "Tickets",
+          "items": [
+            { "type": "item", "title": "Create", "uri": "docs/support/tickets/create.md" },
+            { "type": "item", "title": "Escalate", "uri": "docs/support/tickets/escalate.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "SLA",
+          "items": [
+            { "type": "item", "title": "Tiers", "uri": "docs/support/sla/tiers.md" },
+            { "type": "item", "title": "Response Times", "uri": "docs/support/sla/response-times.md" }
+          ]
+        }
+      ]
     }
   ]
 }
