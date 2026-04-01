@@ -1,3 +1,0 @@
-# Changelogs
-
-All release notes.
