@@ -149,6 +149,90 @@
         },
         { "type": "item", "title": "Overview", "uri": "docs/changelogs/overview.md" }
       ]
+    },
+    {
+      "type": "group",
+      "title": "Advanced Topics",
+      "items": [
+        {
+          "type": "group",
+          "title": "Deep Dive Series",
+          "items": [
+            {
+              "type": "group",
+              "title": "Core Internals",
+              "items": [
+                { "type": "item", "title": "Architecture", "uri": "docs/advanced/deep-dive/core-internals/architecture.md" },
+                { "type": "item", "title": "Memory Management", "uri": "docs/advanced/deep-dive/core-internals/memory-management.md" },
+                { "type": "item", "title": "Concurrency", "uri": "docs/advanced/deep-dive/core-internals/concurrency.md" },
+                { "type": "item", "title": "Event Loop", "uri": "docs/advanced/deep-dive/core-internals/event-loop.md" },
+                { "type": "item", "title": "Caching", "uri": "docs/advanced/deep-dive/core-internals/caching.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Performance",
+              "items": [
+                { "type": "item", "title": "Benchmarks", "uri": "docs/advanced/deep-dive/performance/benchmarks.md" },
+                { "type": "item", "title": "Profiling", "uri": "docs/advanced/deep-dive/performance/profiling.md" },
+                { "type": "item", "title": "Optimization", "uri": "docs/advanced/deep-dive/performance/optimization.md" },
+                { "type": "item", "title": "Load Testing", "uri": "docs/advanced/deep-dive/performance/load-testing.md" },
+                { "type": "item", "title": "Bottlenecks", "uri": "docs/advanced/deep-dive/performance/bottlenecks.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Security",
+              "items": [
+                { "type": "item", "title": "Threat Model", "uri": "docs/advanced/deep-dive/security/threat-model.md" },
+                { "type": "item", "title": "Pen Testing", "uri": "docs/advanced/deep-dive/security/pen-testing.md" },
+                { "type": "item", "title": "Secrets Management", "uri": "docs/advanced/deep-dive/security/secrets-management.md" },
+                { "type": "item", "title": "Zero Trust", "uri": "docs/advanced/deep-dive/security/zero-trust.md" },
+                { "type": "item", "title": "Compliance", "uri": "docs/advanced/deep-dive/security/compliance.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Extended Topics",
+          "items": [
+            {
+              "type": "group",
+              "title": "Integrations",
+              "items": [
+                { "type": "item", "title": "Kafka", "uri": "docs/advanced/extended/integrations/kafka.md" },
+                { "type": "item", "title": "Postgres", "uri": "docs/advanced/extended/integrations/postgres.md" },
+                { "type": "item", "title": "Redis", "uri": "docs/advanced/extended/integrations/redis.md" },
+                { "type": "item", "title": "S3", "uri": "docs/advanced/extended/integrations/s3.md" },
+                { "type": "item", "title": "Stripe", "uri": "docs/advanced/extended/integrations/stripe.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Data Models",
+              "items": [
+                { "type": "item", "title": "Schema", "uri": "docs/advanced/extended/data-models/schema.md" },
+                { "type": "item", "title": "Migrations", "uri": "docs/advanced/extended/data-models/migrations.md" },
+                { "type": "item", "title": "Relations", "uri": "docs/advanced/extended/data-models/relations.md" },
+                { "type": "item", "title": "Indexing", "uri": "docs/advanced/extended/data-models/indexing.md" },
+                { "type": "item", "title": "Versioning", "uri": "docs/advanced/extended/data-models/versioning.md" }
+              ]
+            },
+            {
+              "type": "group",
+              "title": "Observability",
+              "items": [
+                { "type": "item", "title": "Metrics", "uri": "docs/advanced/extended/observability/metrics.md" },
+                { "type": "item", "title": "Tracing", "uri": "docs/advanced/extended/observability/tracing.md" },
+                { "type": "item", "title": "Logging", "uri": "docs/advanced/extended/observability/logging.md" },
+                { "type": "item", "title": "Alerting", "uri": "docs/advanced/extended/observability/alerting.md" },
+                { "type": "item", "title": "Dashboards", "uri": "docs/advanced/extended/observability/dashboards.md" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
