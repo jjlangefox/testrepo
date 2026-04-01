@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "title": "Getting Started",
+      "items": [
+        { "type": "item", "title": "Introduction", "uri": "docs/getting-started/intro.md" },
+        { "type": "item", "title": "Quickstart", "uri": "docs/getting-started/quickstart.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Guides",
+      "items": [
+        { "type": "item", "title": "Overview", "uri": "docs/guides/overview.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "API Reference",
+      "items": [
+        { "type": "item", "title": "Reference", "uri": "docs/api/reference.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Tutorials",
+      "items": [
+        { "type": "item", "title": "Basics", "uri": "docs/tutorials/basics.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Examples",
+      "items": [
+        { "type": "item", "title": "Sample", "uri": "docs/examples/sample.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Reference",
+      "items": [
+        { "type": "item", "title": "Glossary", "uri": "docs/reference/glossary.md" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Changelogs",
+      "items": [
+        {
+          "type": "group",
+          "title": "Changelog 2026",
+          "items": [
+            { "type": "item", "title": "January 2026", "uri": "docs/changelogs/2026/january.md" },
+            { "type": "item", "title": "February 2026", "uri": "docs/changelogs/2026/february.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Changelog 2025",
+          "items": [
+            { "type": "item", "title": "December 2025", "uri": "docs/changelogs/2025/december.md" }
+          ]
+        },
+        { "type": "item", "title": "Overview", "uri": "docs/changelogs/overview.md" }
+      ]
+    }
+  ]
+}
