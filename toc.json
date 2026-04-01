@@ -149,6 +149,216 @@
         },
         { "type": "item", "title": "Overview", "uri": "docs/changelogs/overview.md" }
       ]
-    }
+    },
+    {
+      "type": "group",
+      "title": "Notifications",
+      "items": [
+        {
+          "type": "group",
+          "title": "Email",
+          "items": [
+            { "type": "item", "title": "Setup", "uri": "docs/notifications/email/setup.md" },
+            { "type": "item", "title": "Templates", "uri": "docs/notifications/email/templates.md" },
+            { "type": "item", "title": "Variables", "uri": "docs/notifications/email/variables.md" },
+            { "type": "item", "title": "Scheduling", "uri": "docs/notifications/email/scheduling.md" },
+            { "type": "item", "title": "Tracking", "uri": "docs/notifications/email/tracking.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Push",
+          "items": [
+            { "type": "item", "title": "Setup", "uri": "docs/notifications/push/setup.md" },
+            { "type": "item", "title": "Devices", "uri": "docs/notifications/push/devices.md" },
+            { "type": "item", "title": "Payloads", "uri": "docs/notifications/push/payloads.md" },
+            { "type": "item", "title": "Limits", "uri": "docs/notifications/push/limits.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Billing",
+      "items": [
+        {
+          "type": "group",
+          "title": "Plans",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/billing/plans/overview.md" },
+            { "type": "item", "title": "Tiers", "uri": "docs/billing/plans/tiers.md" },
+            { "type": "item", "title": "Upgrades", "uri": "docs/billing/plans/upgrades.md" },
+            { "type": "item", "title": "Cancellation", "uri": "docs/billing/plans/cancellation.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Invoices",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/billing/invoices/overview.md" },
+            { "type": "item", "title": "Download", "uri": "docs/billing/invoices/download.md" },
+            { "type": "item", "title": "Taxes", "uri": "docs/billing/invoices/taxes.md" },
+            { "type": "item", "title": "Refunds", "uri": "docs/billing/invoices/refunds.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Analytics",
+      "items": [
+        {
+          "type": "group",
+          "title": "Reports",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/analytics/reports/overview.md" },
+            { "type": "item", "title": "Filters", "uri": "docs/analytics/reports/filters.md" },
+            { "type": "item", "title": "Exports", "uri": "docs/analytics/reports/exports.md" },
+            { "type": "item", "title": "Scheduling", "uri": "docs/analytics/reports/scheduling.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Metrics",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/analytics/metrics/overview.md" },
+            { "type": "item", "title": "Custom", "uri": "docs/analytics/metrics/custom.md" },
+            { "type": "item", "title": "Dashboards", "uri": "docs/analytics/metrics/dashboards.md" },
+            { "type": "item", "title": "Retention", "uri": "docs/analytics/metrics/retention.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Admin",
+      "items": [
+        {
+          "type": "group",
+          "title": "Users",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/admin/users/overview.md" },
+            { "type": "item", "title": "Roles", "uri": "docs/admin/users/roles.md" },
+            { "type": "item", "title": "Invitations", "uri": "docs/admin/users/invitations.md" },
+            { "type": "item", "title": "Deactivation", "uri": "docs/admin/users/deactivation.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Settings",
+          "items": [
+            { "type": "item", "title": "General", "uri": "docs/admin/settings/general.md" },
+            { "type": "item", "title": "Security", "uri": "docs/admin/settings/security.md" },
+            { "type": "item", "title": "Notifications", "uri": "docs/admin/settings/notifications.md" },
+            { "type": "item", "title": "Audit", "uri": "docs/admin/settings/audit.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Integrations",
+      "items": [
+        {
+          "type": "group",
+          "title": "OAuth Apps",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/integrations/oauth/overview.md" },
+            { "type": "item", "title": "Apps", "uri": "docs/integrations/oauth/apps.md" },
+            { "type": "item", "title": "Scopes", "uri": "docs/integrations/oauth/scopes.md" },
+            { "type": "item", "title": "Tokens", "uri": "docs/integrations/oauth/tokens.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Webhooks",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/integrations/webhooks/overview.md" },
+            { "type": "item", "title": "Events", "uri": "docs/integrations/webhooks/events.md" },
+            { "type": "item", "title": "Payloads", "uri": "docs/integrations/webhooks/payloads.md" },
+            { "type": "item", "title": "Retries", "uri": "docs/integrations/webhooks/retries.md" },
+            { "type": "item", "title": "Security", "uri": "docs/integrations/webhooks/security.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Release Notes",
+      "items": [
+        {
+          "type": "group",
+          "title": "v1",
+          "items": [
+            { "type": "item", "title": "Notes", "uri": "docs/release-notes/v1/notes.md" },
+            { "type": "item", "title": "Migration Guide", "uri": "docs/release-notes/v1/migration.md" },
+            { "type": "item", "title": "Breaking Changes", "uri": "docs/release-notes/v1/breaking-changes.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v2",
+          "items": [
+            { "type": "item", "title": "Notes", "uri": "docs/release-notes/v2/notes.md" },
+            { "type": "item", "title": "Migration Guide", "uri": "docs/release-notes/v2/migration.md" },
+            { "type": "item", "title": "Breaking Changes", "uri": "docs/release-notes/v2/breaking-changes.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v3",
+          "items": [
+            { "type": "item", "title": "Notes", "uri": "docs/release-notes/v3/notes.md" },
+            { "type": "item", "title": "Migration Guide", "uri": "docs/release-notes/v3/migration.md" },
+            { "type": "item", "title": "Breaking Changes", "uri": "docs/release-notes/v3/breaking-changes.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v4",
+          "items": [
+            { "type": "item", "title": "Notes", "uri": "docs/release-notes/v4/notes.md" },
+            { "type": "item", "title": "Migration Guide", "uri": "docs/release-notes/v4/migration.md" },
+            { "type": "item", "title": "Breaking Changes", "uri": "docs/release-notes/v4/breaking-changes.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Compliance",
+      "items": [
+        {
+          "type": "group",
+          "title": "Policies",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/compliance/policies/overview.md" },
+            { "type": "item", "title": "Data Retention", "uri": "docs/compliance/policies/data-retention.md" },
+            { "type": "item", "title": "Acceptable Use", "uri": "docs/compliance/policies/acceptable-use.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Certifications",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/compliance/certifications/overview.md" },
+            { "type": "item", "title": "SOC 2", "uri": "docs/compliance/certifications/soc2.md" },
+            { "type": "item", "title": "ISO 27001", "uri": "docs/compliance/certifications/iso27001.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Privacy",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/compliance/privacy/overview.md" },
+            { "type": "item", "title": "GDPR", "uri": "docs/compliance/privacy/gdpr.md" },
+            { "type": "item", "title": "CCPA", "uri": "docs/compliance/privacy/ccpa.md" }
+          ]
+        }
+      ]
+    },
+    { "type": "item", "title": "Home", "uri": "docs/root-pages/home.md" },
+    { "type": "item", "title": "Status", "uri": "docs/root-pages/status.md" },
+    { "type": "item", "title": "Contact", "uri": "docs/root-pages/contact.md" }
   ]
 }
