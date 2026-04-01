@@ -4,39 +4,63 @@
       "type": "group",
       "title": "Getting Started",
       "items": [
-        { "type": "item", "title": "Introduction", "uri": "docs/getting-started/intro.md" },
-        { "type": "item", "title": "Quickstart", "uri": "docs/getting-started/quickstart.md" },
-        { "type": "item", "title": "Installation", "uri": "docs/getting-started/installation.md" },
-        { "type": "item", "title": "Configuration", "uri": "docs/getting-started/configuration.md" },
-        { "type": "item", "title": "First Steps", "uri": "docs/getting-started/first-steps.md" }
+        {
+          "type": "group",
+          "title": "Quickstart",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/getting-started/quickstart/overview.md" },
+            { "type": "item", "title": "Installation", "uri": "docs/getting-started/quickstart/installation.md" },
+            { "type": "item", "title": "First Request", "uri": "docs/getting-started/quickstart/first-request.md" },
+            { "type": "item", "title": "Authentication", "uri": "docs/getting-started/quickstart/authentication.md" },
+            { "type": "item", "title": "Pagination", "uri": "docs/getting-started/quickstart/pagination.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Setup",
+          "items": [
+            { "type": "item", "title": "Prerequisites", "uri": "docs/getting-started/setup/prerequisites.md" },
+            { "type": "item", "title": "Environment Variables", "uri": "docs/getting-started/setup/environment-variables.md" },
+            { "type": "item", "title": "Config File", "uri": "docs/getting-started/setup/config-file.md" },
+            { "type": "item", "title": "IDE Setup", "uri": "docs/getting-started/setup/ide-setup.md" }
+          ]
+        }
       ]
     },
     {
       "type": "group",
-      "title": "Architecture",
+      "title": "Core Concepts",
       "items": [
-        { "type": "item", "title": "Overview", "uri": "docs/architecture/overview.md" },
-        { "type": "item", "title": "Core Concepts", "uri": "docs/architecture/core-concepts.md" },
-        { "type": "item", "title": "Data Flow", "uri": "docs/architecture/data-flow.md" },
-        { "type": "item", "title": "Security Model", "uri": "docs/architecture/security-model.md" },
-        { "type": "item", "title": "Scalability", "uri": "docs/architecture/scalability.md" },
-        { "type": "item", "title": "Integrations", "uri": "docs/architecture/integrations.md" },
-        { "type": "item", "title": "Deployment", "uri": "docs/architecture/deployment.md" },
-        { "type": "item", "title": "Monitoring", "uri": "docs/architecture/monitoring.md" }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Guides",
-      "items": [
-        { "type": "item", "title": "Overview", "uri": "docs/guides/overview.md" },
-        { "type": "item", "title": "Authentication Guide", "uri": "docs/guides/authentication.md" },
-        { "type": "item", "title": "Rate Limiting", "uri": "docs/guides/rate-limiting.md" },
-        { "type": "item", "title": "Pagination", "uri": "docs/guides/pagination.md" },
-        { "type": "item", "title": "Error Handling", "uri": "docs/guides/error-handling.md" },
-        { "type": "item", "title": "Webhooks Guide", "uri": "docs/guides/webhooks.md" },
-        { "type": "item", "title": "SDKs", "uri": "docs/guides/sdks.md" },
-        { "type": "item", "title": "Best Practices", "uri": "docs/guides/best-practices.md" }
+        {
+          "type": "group",
+          "title": "Architecture",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/core-concepts/architecture/overview.md" },
+            { "type": "item", "title": "Components", "uri": "docs/core-concepts/architecture/components.md" },
+            { "type": "item", "title": "Data Flow", "uri": "docs/core-concepts/architecture/data-flow.md" },
+            { "type": "item", "title": "Event System", "uri": "docs/core-concepts/architecture/event-system.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Data Model",
+          "items": [
+            { "type": "item", "title": "Entities", "uri": "docs/core-concepts/data-model/entities.md" },
+            { "type": "item", "title": "Relationships", "uri": "docs/core-concepts/data-model/relationships.md" },
+            { "type": "item", "title": "Schemas", "uri": "docs/core-concepts/data-model/schemas.md" },
+            { "type": "item", "title": "Versioning", "uri": "docs/core-concepts/data-model/versioning.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Security",
+          "items": [
+            { "type": "item", "title": "Threat Model", "uri": "docs/core-concepts/security/threat-model.md" },
+            { "type": "item", "title": "Permissions", "uri": "docs/core-concepts/security/permissions.md" },
+            { "type": "item", "title": "RBAC", "uri": "docs/core-concepts/security/rbac.md" },
+            { "type": "item", "title": "Audit Logs", "uri": "docs/core-concepts/security/audit-logs.md" }
+          ]
+        }
       ]
     },
     {
@@ -45,35 +69,97 @@
       "items": [
         {
           "type": "group",
-          "title": "Authentication",
+          "title": "REST",
           "items": [
-            { "type": "item", "title": "Overview", "uri": "docs/api/authentication/overview.md" },
-            { "type": "item", "title": "API Keys", "uri": "docs/api/authentication/api-keys.md" },
-            { "type": "item", "title": "OAuth 2.0", "uri": "docs/api/authentication/oauth.md" },
-            { "type": "item", "title": "JWT Tokens", "uri": "docs/api/authentication/jwt.md" },
-            { "type": "item", "title": "SSO", "uri": "docs/api/authentication/sso.md" }
+            { "type": "item", "title": "Endpoints", "uri": "docs/api-reference/rest/endpoints.md" },
+            { "type": "item", "title": "Request Format", "uri": "docs/api-reference/rest/request-format.md" },
+            { "type": "item", "title": "Response Format", "uri": "docs/api-reference/rest/response-format.md" },
+            { "type": "item", "title": "Error Codes", "uri": "docs/api-reference/rest/error-codes.md" },
+            { "type": "item", "title": "Rate Limiting", "uri": "docs/api-reference/rest/rate-limiting.md" }
           ]
         },
         {
           "type": "group",
-          "title": "Endpoints",
+          "title": "GraphQL",
           "items": [
-            { "type": "item", "title": "Reference", "uri": "docs/api/reference.md" },
-            { "type": "item", "title": "Users", "uri": "docs/api/endpoints/users.md" },
-            { "type": "item", "title": "Projects", "uri": "docs/api/endpoints/projects.md" },
-            { "type": "item", "title": "Teams", "uri": "docs/api/endpoints/teams.md" },
-            { "type": "item", "title": "Webhooks", "uri": "docs/api/endpoints/webhooks.md" }
+            { "type": "item", "title": "Schema", "uri": "docs/api-reference/graphql/schema.md" },
+            { "type": "item", "title": "Queries", "uri": "docs/api-reference/graphql/queries.md" },
+            { "type": "item", "title": "Mutations", "uri": "docs/api-reference/graphql/mutations.md" },
+            { "type": "item", "title": "Subscriptions", "uri": "docs/api-reference/graphql/subscriptions.md" }
           ]
         },
         {
           "type": "group",
-          "title": "Webhooks",
+          "title": "WebSockets",
           "items": [
-            { "type": "item", "title": "Overview", "uri": "docs/api/webhooks/overview.md" },
-            { "type": "item", "title": "Events", "uri": "docs/api/webhooks/events.md" },
-            { "type": "item", "title": "Payloads", "uri": "docs/api/webhooks/payloads.md" },
-            { "type": "item", "title": "Security", "uri": "docs/api/webhooks/security.md" },
-            { "type": "item", "title": "Retries", "uri": "docs/api/webhooks/retries.md" }
+            { "type": "item", "title": "Connection Lifecycle", "uri": "docs/api-reference/websockets/connection-lifecycle.md" },
+            { "type": "item", "title": "Events", "uri": "docs/api-reference/websockets/events.md" },
+            { "type": "item", "title": "Message Format", "uri": "docs/api-reference/websockets/message-format.md" },
+            { "type": "item", "title": "Error Handling", "uri": "docs/api-reference/websockets/error-handling.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Authentication",
+      "items": [
+        {
+          "type": "group",
+          "title": "OAuth",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/authentication/oauth/overview.md" },
+            { "type": "item", "title": "Authorization Code", "uri": "docs/authentication/oauth/authorization-code.md" },
+            { "type": "item", "title": "Client Credentials", "uri": "docs/authentication/oauth/client-credentials.md" },
+            { "type": "item", "title": "Token Refresh", "uri": "docs/authentication/oauth/token-refresh.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "API Keys",
+          "items": [
+            { "type": "item", "title": "Creating Keys", "uri": "docs/authentication/api-keys/creating-keys.md" },
+            { "type": "item", "title": "Scopes", "uri": "docs/authentication/api-keys/scopes.md" },
+            { "type": "item", "title": "Key Rotation", "uri": "docs/authentication/api-keys/key-rotation.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Guides",
+      "items": [
+        {
+          "type": "group",
+          "title": "Beginner",
+          "items": [
+            { "type": "item", "title": "Your First API", "uri": "docs/guides/beginner/your-first-api.md" },
+            { "type": "item", "title": "Import Data", "uri": "docs/guides/beginner/import-data.md" },
+            { "type": "item", "title": "Export Data", "uri": "docs/guides/beginner/export-data.md" },
+            { "type": "item", "title": "Working With Teams", "uri": "docs/guides/beginner/working-with-teams.md" },
+            { "type": "item", "title": "Notifications", "uri": "docs/guides/beginner/notifications.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Intermediate",
+          "items": [
+            { "type": "item", "title": "Custom Workflows", "uri": "docs/guides/intermediate/custom-workflows.md" },
+            { "type": "item", "title": "Automation", "uri": "docs/guides/intermediate/automation.md" },
+            { "type": "item", "title": "Batch Operations", "uri": "docs/guides/intermediate/batch-operations.md" },
+            { "type": "item", "title": "Filtering", "uri": "docs/guides/intermediate/filtering.md" },
+            { "type": "item", "title": "Sorting", "uri": "docs/guides/intermediate/sorting.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Advanced",
+          "items": [
+            { "type": "item", "title": "Custom Plugins", "uri": "docs/guides/advanced/custom-plugins.md" },
+            { "type": "item", "title": "Webhooks", "uri": "docs/guides/advanced/webhooks.md" },
+            { "type": "item", "title": "Data Streaming", "uri": "docs/guides/advanced/data-streaming.md" },
+            { "type": "item", "title": "Performance Tuning", "uri": "docs/guides/advanced/performance-tuning.md" },
+            { "type": "item", "title": "Caching", "uri": "docs/guides/advanced/caching.md" }
           ]
         }
       ]
@@ -82,72 +168,210 @@
       "type": "group",
       "title": "Tutorials",
       "items": [
-        { "type": "item", "title": "Basics", "uri": "docs/tutorials/basics.md" },
-        { "type": "item", "title": "Build Your First App", "uri": "docs/tutorials/first-app.md" },
-        { "type": "item", "title": "Integrating with CI/CD", "uri": "docs/tutorials/cicd.md" },
-        { "type": "item", "title": "Advanced Queries", "uri": "docs/tutorials/advanced-queries.md" },
-        { "type": "item", "title": "Custom Workflows", "uri": "docs/tutorials/custom-workflows.md" },
-        { "type": "item", "title": "Testing with Mock APIs", "uri": "docs/tutorials/mock-apis.md" },
-        { "type": "item", "title": "Performance Tuning", "uri": "docs/tutorials/performance.md" },
-        { "type": "item", "title": "Debugging Tips", "uri": "docs/tutorials/debugging.md" }
+        {
+          "type": "group",
+          "title": "Quick",
+          "items": [
+            { "type": "item", "title": "Build a Dashboard", "uri": "docs/tutorials/quick/build-a-dashboard.md" },
+            { "type": "item", "title": "Connect External DB", "uri": "docs/tutorials/quick/connect-external-db.md" },
+            { "type": "item", "title": "Send Notifications", "uri": "docs/tutorials/quick/send-notifications.md" },
+            { "type": "item", "title": "Schedule Tasks", "uri": "docs/tutorials/quick/schedule-tasks.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "In-Depth",
+          "items": [
+            { "type": "item", "title": "Microservices Integration", "uri": "docs/tutorials/in-depth/microservices-integration.md" },
+            { "type": "item", "title": "Event Driven Architecture", "uri": "docs/tutorials/in-depth/event-driven-architecture.md" },
+            { "type": "item", "title": "Multi Tenant Setup", "uri": "docs/tutorials/in-depth/multi-tenant-setup.md" },
+            { "type": "item", "title": "SAML SSO", "uri": "docs/tutorials/in-depth/saml-sso.md" }
+          ]
+        }
       ]
     },
     {
       "type": "group",
-      "title": "Examples",
+      "title": "SDKs",
       "items": [
-        { "type": "item", "title": "Sample", "uri": "docs/examples/sample.md" },
-        { "type": "item", "title": "Node.js Example", "uri": "docs/examples/nodejs.md" },
-        { "type": "item", "title": "Python Example", "uri": "docs/examples/python.md" },
-        { "type": "item", "title": "Go Example", "uri": "docs/examples/go.md" },
-        { "type": "item", "title": "curl Examples", "uri": "docs/examples/curl.md" }
+        {
+          "type": "group",
+          "title": "JavaScript",
+          "items": [
+            { "type": "item", "title": "Installation", "uri": "docs/sdks/javascript/installation.md" },
+            { "type": "item", "title": "Usage", "uri": "docs/sdks/javascript/usage.md" },
+            { "type": "item", "title": "Examples", "uri": "docs/sdks/javascript/examples.md" },
+            { "type": "item", "title": "Error Handling", "uri": "docs/sdks/javascript/error-handling.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Python",
+          "items": [
+            { "type": "item", "title": "Installation", "uri": "docs/sdks/python/installation.md" },
+            { "type": "item", "title": "Usage", "uri": "docs/sdks/python/usage.md" },
+            { "type": "item", "title": "Examples", "uri": "docs/sdks/python/examples.md" },
+            { "type": "item", "title": "Error Handling", "uri": "docs/sdks/python/error-handling.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Go",
+          "items": [
+            { "type": "item", "title": "Installation", "uri": "docs/sdks/go/installation.md" },
+            { "type": "item", "title": "Usage", "uri": "docs/sdks/go/usage.md" },
+            { "type": "item", "title": "Examples", "uri": "docs/sdks/go/examples.md" },
+            { "type": "item", "title": "Error Handling", "uri": "docs/sdks/go/error-handling.md" }
+          ]
+        }
       ]
     },
     {
       "type": "group",
-      "title": "Reference",
+      "title": "Deployment",
       "items": [
-        { "type": "item", "title": "Glossary", "uri": "docs/reference/glossary.md" },
-        { "type": "item", "title": "Error Codes", "uri": "docs/reference/error-codes.md" },
-        { "type": "item", "title": "Rate Limits", "uri": "docs/reference/rate-limits.md" },
-        { "type": "item", "title": "Regions", "uri": "docs/reference/regions.md" },
-        { "type": "item", "title": "Deprecations", "uri": "docs/reference/deprecations.md" }
+        {
+          "type": "group",
+          "title": "Docker",
+          "items": [
+            { "type": "item", "title": "Dockerfile", "uri": "docs/deployment/docker/dockerfile.md" },
+            { "type": "item", "title": "Compose Setup", "uri": "docs/deployment/docker/compose-setup.md" },
+            { "type": "item", "title": "Networking", "uri": "docs/deployment/docker/networking.md" },
+            { "type": "item", "title": "Volumes", "uri": "docs/deployment/docker/volumes.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Kubernetes",
+          "items": [
+            { "type": "item", "title": "Helm Chart", "uri": "docs/deployment/kubernetes/helm-chart.md" },
+            { "type": "item", "title": "Manifests", "uri": "docs/deployment/kubernetes/manifests.md" },
+            { "type": "item", "title": "Scaling", "uri": "docs/deployment/kubernetes/scaling.md" },
+            { "type": "item", "title": "Ingress", "uri": "docs/deployment/kubernetes/ingress.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Cloud",
+          "items": [
+            { "type": "item", "title": "AWS", "uri": "docs/deployment/cloud/aws.md" },
+            { "type": "item", "title": "GCP", "uri": "docs/deployment/cloud/gcp.md" },
+            { "type": "item", "title": "Azure", "uri": "docs/deployment/cloud/azure.md" },
+            { "type": "item", "title": "Environment Config", "uri": "docs/deployment/cloud/environment-config.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Monitoring",
+      "items": [
+        {
+          "type": "group",
+          "title": "Metrics",
+          "items": [
+            { "type": "item", "title": "Overview", "uri": "docs/monitoring/metrics/overview.md" },
+            { "type": "item", "title": "Prometheus", "uri": "docs/monitoring/metrics/prometheus.md" },
+            { "type": "item", "title": "Grafana", "uri": "docs/monitoring/metrics/grafana.md" },
+            { "type": "item", "title": "Alerting", "uri": "docs/monitoring/metrics/alerting.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Logging",
+          "items": [
+            { "type": "item", "title": "Log Levels", "uri": "docs/monitoring/logging/log-levels.md" },
+            { "type": "item", "title": "Structured Logging", "uri": "docs/monitoring/logging/structured-logging.md" },
+            { "type": "item", "title": "Log Aggregation", "uri": "docs/monitoring/logging/log-aggregation.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Troubleshooting",
+      "items": [
+        {
+          "type": "group",
+          "title": "Common Issues",
+          "items": [
+            { "type": "item", "title": "Connection Errors", "uri": "docs/troubleshooting/common-issues/connection-errors.md" },
+            { "type": "item", "title": "Auth Failures", "uri": "docs/troubleshooting/common-issues/auth-failures.md" },
+            { "type": "item", "title": "Data Sync", "uri": "docs/troubleshooting/common-issues/data-sync.md" },
+            { "type": "item", "title": "Performance", "uri": "docs/troubleshooting/common-issues/performance.md" },
+            { "type": "item", "title": "Slow Queries", "uri": "docs/troubleshooting/common-issues/slow-queries.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "Error Reference",
+          "items": [
+            { "type": "item", "title": "4xx Errors", "uri": "docs/troubleshooting/error-reference/4xx-errors.md" },
+            { "type": "item", "title": "5xx Errors", "uri": "docs/troubleshooting/error-reference/5xx-errors.md" },
+            { "type": "item", "title": "Timeout Errors", "uri": "docs/troubleshooting/error-reference/timeout-errors.md" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Changelog",
+      "items": [
+        {
+          "type": "group",
+          "title": "v1.x",
+          "items": [
+            { "type": "item", "title": "v1.0", "uri": "docs/changelog/v1/v1-0.md" },
+            { "type": "item", "title": "v1.1", "uri": "docs/changelog/v1/v1-1.md" },
+            { "type": "item", "title": "v1.2", "uri": "docs/changelog/v1/v1-2.md" },
+            { "type": "item", "title": "v1.3", "uri": "docs/changelog/v1/v1-3.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v2.x",
+          "items": [
+            { "type": "item", "title": "v2.0", "uri": "docs/changelog/v2/v2-0.md" },
+            { "type": "item", "title": "v2.1", "uri": "docs/changelog/v2/v2-1.md" },
+            { "type": "item", "title": "v2.2", "uri": "docs/changelog/v2/v2-2.md" },
+            { "type": "item", "title": "v2.3", "uri": "docs/changelog/v2/v2-3.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "v3.x",
+          "items": [
+            { "type": "item", "title": "v3.0", "uri": "docs/changelog/v3/v3-0.md" },
+            { "type": "item", "title": "v3.1", "uri": "docs/changelog/v3/v3-1.md" },
+            { "type": "item", "title": "v3.2", "uri": "docs/changelog/v3/v3-2.md" }
+          ]
+        }
       ]
     },
     {
       "type": "group",
       "title": "FAQ",
       "items": [
-        { "type": "item", "title": "General FAQ", "uri": "docs/faq/general.md" },
-        { "type": "item", "title": "Billing FAQ", "uri": "docs/faq/billing.md" },
-        { "type": "item", "title": "Security FAQ", "uri": "docs/faq/security.md" },
-        { "type": "item", "title": "Technical FAQ", "uri": "docs/faq/technical.md" },
-        { "type": "item", "title": "Troubleshooting", "uri": "docs/faq/troubleshooting.md" }
-      ]
-    },
-    {
-      "type": "group",
-      "title": "Changelogs",
-      "items": [
         {
           "type": "group",
-          "title": "Changelog 2026",
+          "title": "General",
           "items": [
-            { "type": "item", "title": "January 2026", "uri": "docs/changelogs/2026/january.md" },
-            { "type": "item", "title": "February 2026", "uri": "docs/changelogs/2026/february.md" },
-            { "type": "item", "title": "March 2026", "uri": "docs/changelogs/2026/march.md" }
+            { "type": "item", "title": "Account Management", "uri": "docs/faq/general/account-management.md" },
+            { "type": "item", "title": "Billing", "uri": "docs/faq/general/billing.md" },
+            { "type": "item", "title": "Team Collaboration", "uri": "docs/faq/general/team-collaboration.md" },
+            { "type": "item", "title": "Data Retention", "uri": "docs/faq/general/data-retention.md" }
           ]
         },
         {
           "type": "group",
-          "title": "Changelog 2025",
+          "title": "Technical",
           "items": [
-            { "type": "item", "title": "October 2025", "uri": "docs/changelogs/2025/october.md" },
-            { "type": "item", "title": "November 2025", "uri": "docs/changelogs/2025/november.md" },
-            { "type": "item", "title": "December 2025", "uri": "docs/changelogs/2025/december.md" }
+            { "type": "item", "title": "API Limits", "uri": "docs/faq/technical/api-limits.md" },
+            { "type": "item", "title": "Integrations", "uri": "docs/faq/technical/integrations.md" },
+            { "type": "item", "title": "Data Formats", "uri": "docs/faq/technical/data-formats.md" },
+            { "type": "item", "title": "Supported Browsers", "uri": "docs/faq/technical/supported-browsers.md" }
           ]
-        },
-        { "type": "item", "title": "Overview", "uri": "docs/changelogs/overview.md" }
+        }
       ]
     }
   ]
